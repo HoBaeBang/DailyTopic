@@ -1,4 +1,5 @@
 import 'package:daily_topic_app/src/app.dart';
+import 'package:daily_topic_app/src/binding/init_bindings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         // useMaterial3: true,
       ),
+      initialBinding: InitBinding(),
       home: const App(),
     );
   }
